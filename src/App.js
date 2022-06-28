@@ -10,12 +10,18 @@ import {
   theme,
 } from '@chakra-ui/react';
 
-import { Logo } from './Logo';
+import Navbar from "./components/navbar/Navbar"
+import MainSection from './components/MainSection'
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      
+      <Box h="96px" bg="#fff" boxShadow="0px 30px 80px rgba(0, 0, 0, 0.07)">
+        <Navbar />
+      </Box>
+      <Box bg="#E3DDF2">
+        <MainSection />
+      </Box>
     </ChakraProvider>
   );
 }
