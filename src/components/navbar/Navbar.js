@@ -17,11 +17,21 @@ export default function Navbar () {
                 <Center h="96px">
                     <img src={logo_img} alt="Logo Img" />
                 </Center>
-                <Box mt="44px" mx="20px">Система активных скидок</Box>
-                <Box><Button bg="#91B93C" color="#fff" size="xs" mt="44px">Что это?</Button></Box>
+                <Box mt="44px" mx="20px" fontWeight="500" fontSize="22px" >Система активных скидок</Box>
+                <Box><Button bg="#91B93C" color="#fff" size="xs" mt="44px" fontWeight="500" fontSize="14px">Что это?</Button></Box>
                 <Spacer />
                 <Center h="96px">
-                    <Button bg="#91B93C" color="#fff" size="lg" borderRadius="30px" fontSize="14px" px="40px">Вход / Регистрация</Button>
+                    <Button
+                        bg="#91B93C"
+                        color="#fff"
+                        size="lg"
+                        borderRadius="30px"
+                        fontSize="14px"
+                        px="40px"
+                        fontWeight="500"
+                    >
+                        Вход / Регистрация
+                    </Button>
                 </Center>
             </Flex>
         </ChakraProvider>

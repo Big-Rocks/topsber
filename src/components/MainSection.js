@@ -3,7 +3,6 @@ import {
     ChakraProvider,
     theme,
     Flex,
-    Spacer
 
 } from '@chakra-ui/react'
 import Category from './parent_category/Category'
@@ -11,7 +10,7 @@ import Category from './parent_category/Category'
 export default function MainSection() {
     return (
         <ChakraProvider theme={theme}>
-            <Flex width={{base:'90%', md : '1400px'}}>
+            <Flex width={{base:'90%', md : '1400px'}}  m="0 auto">
                 <Category />
             </Flex>
         </ChakraProvider>
