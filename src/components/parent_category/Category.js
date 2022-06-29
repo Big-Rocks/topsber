@@ -70,7 +70,7 @@ export default function Category() {
                     flexDirection={{base : 'column', sm : 'column', md : 'row'}}
                     m="38px 0px 0px 0px"
                     bg="#fff"
-                    boxShadow="0px 10px 80px rgba(13, 39, 80, 0.06), inset 0px 4px 50px rgba(51, 15, 66, 0.04)"
+                    // boxShadow="0px 10px 80px rgba(13, 39, 80, 0.06), inset 0px 4px 50px rgba(51, 15, 66, 0.04)"
                     borderRadius="14px"
                     w="100%"
                     p={{base : '36px', md : '36px 80px',lg : '36px 80px',xl : '36px 100px', '2xl':"36px 145px"}}

@@ -6,6 +6,8 @@ import {
 
 export default function ProductCarosel(){
     return (
-        <></>
+        <ChakraProvider theme={theme}>
+            
+        </ChakraProvider>
     )
 }

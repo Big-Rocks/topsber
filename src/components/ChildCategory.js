@@ -3,7 +3,6 @@ import {
     ChakraProvider,
     theme,
     Flex,
-    Spacer,
     Box
 } from '@chakra-ui/react'
 
@@ -12,11 +11,13 @@ import ProductCarosel from './product_carosel/ProductCarosel'
 
 export default function ChildCategory(){
     return (
-        <ChakraProvider theme="theme">
-            <Flex flexDirection="column">
-                <Box m="30 auto" fontWeight="400" fontSize="20px">
+        <ChakraProvider theme={theme}>
+            <Flex flexDirection="column" mt="30" alignItems="center">
+                <Box fontWeight="400" fontSize="20px">
                     Актуальные акции раздела Hi-TECH
                 </Box>
+                <Promotion />
+                <ProductCarosel />
             </Flex>
         </ChakraProvider>
     )

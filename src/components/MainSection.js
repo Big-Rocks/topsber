@@ -11,7 +11,7 @@ import ChildCategory from './ChildCategory'
 export default function MainSection() {
     return (
         <ChakraProvider theme={theme}>
-            <Flex width={{base:'90%', md : '750px',xl : '1200px', '2xl' : '1400px'}}  m="0 auto">
+            <Flex width={{base:'90%', md : '750px',xl : '1200px', '2xl' : '1400px'}}  m="0 auto" flexDirection="column" alignItems="center">
                 <Category />
                 <ChildCategory />
             </Flex>
